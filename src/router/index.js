@@ -19,10 +19,17 @@ const routes = [
   },
   {
 
+
     path: "/malo",
     name: "Malo",
     component: () => import("../views/Malo.vue"),
 },
+  {
+    path: "/sachag",
+    name: "SachaG",
+    component: () => import("../views/SachaG.vue"),
+  },
+
   {
     path: "/ahmed",
     name: "ahmed",

@@ -5,6 +5,8 @@
     <router-link to="/antonio">Antonio</router-link> |
      <router-link to="/kevin">Kevin</router-link>
 
+    <router-link to="/sachag">SachaG</router-link> |
+    <router-link to="/ahmed">Ahmed</router-link>
   </div>
   <transition name="router-anim">
   <router-view />

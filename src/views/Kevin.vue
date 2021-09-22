@@ -4,7 +4,7 @@
         <div class="contain">
             <img src="../assets/profil.jpg" alt="image profil" class="imageProfil">
             <h1>Kevin Ho</h1> 
-            <p>i want to be FullStack dev foreal</p>
+            <h2>i want to be FullStack dev foreal</h2>
             <p>Vidéo game is my passion 🙌</p>
             <p>My name is Kevin i'm 21 yr, studying dev in iim school for 5 yr.</p>
 

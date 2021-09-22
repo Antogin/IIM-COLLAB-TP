@@ -24,6 +24,32 @@ const routes = [
     name: "Malo",
     component: () => import("../views/Malo.vue"),
 },
+{
+    path: "/margaux",
+    name: "Margaux",
+    component: () => import("../views/Margaux.vue"),
+  },
+  {
+    path: "/sachaL",
+    name: "SachaL",
+    component: () => import("../views/SachaL.vue"),
+  },
+  {
+    path: "/ayoub",
+    name: "Ayoub",
+    component: () => import("../views/Ayoub.vue"),
+  },
+  {
+    path: "/julien",
+    name: "Julien",
+    component: () => import("../views/Julien.vue"),
+  },
+  {
+    path: "/nicolasdegarrigues",
+    name: "NicolasDG",
+    component: () => import("../views/NicolasDG.vue"),
+  },
+
   {
     path: "/sachag",
     name: "SachaG",
@@ -35,6 +61,11 @@ const routes = [
     name: "ahmed",
     component: () => import("../views/Ahmed.vue"),
 
+  },
+  {
+    path: "/lucasC",
+    name: "LucasC",
+    component: () => import("../views/LucasC.vue"),
   },
 ];
 

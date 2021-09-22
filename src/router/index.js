@@ -19,12 +19,36 @@ const routes = [
   },
   {
 
-
     path: "/malo",
     name: "Malo",
     component: () => import("../views/Malo.vue"),
 },
 {
+    path: "/axel",
+    name: "Axel",
+    component: () => import("../views/Axel.vue"),
+  },
+  {
+    path: "/hugo",
+    name: "Hugo",
+    component: () => import("../views/Hugo.vue"),
+  },
+  {
+    path: "/louna",
+    name: "Louna",
+    component: () => import("../views/Louna.vue"),
+  },
+  {
+    path: "/malo",
+    name: "Malo",
+    component: () => import("../views/Malo.vue"),
+  },
+  {
+    path: "/louis",
+    name: "Louis",
+    component: () => import("../views/Louis.vue"),
+  },
+  {
     path: "/margaux",
     name: "Margaux",
     component: () => import("../views/Margaux.vue"),
@@ -51,6 +75,36 @@ const routes = [
   },
 
   {
+    path: "/tomb",
+    name: "Tomb",
+    component: () => import("../views/Tomb.vue"),
+  },
+  {
+    path: "/nico",
+    name: "Nico",
+    component: () => import("../views/Nico.vue"),
+  },
+  {
+    path: "/warsame",
+    name: "Warsame",
+    component: () => import("../views/Warsame.vue"),
+  },
+  {
+    path: "/toml",
+    name: "TomL",
+    component: () => import("../views/Toml.vue"),
+  },
+  {
+    path: "/claire",
+    name: "Claire",
+    component: () => import("../views/Claire.vue"),
+  },
+  {
+    path: "/mathilde",
+    name: "Mathilde",
+    component: () => import("../views/Mathilde.vue"),
+  },
+  {
     path: "/sachag",
     name: "SachaG",
     component: () => import("../views/SachaG.vue"),
@@ -66,6 +120,11 @@ const routes = [
     path: "/lucasC",
     name: "LucasC",
     component: () => import("../views/LucasC.vue"),
+  },
+  {
+    path: "/florent",
+    name: "Florent",
+    component: () => import("../views/Florent.vue"),
   },
 ];
 

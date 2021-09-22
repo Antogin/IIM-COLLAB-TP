@@ -10,12 +10,14 @@
 
             <p class="desc">Show u some project i built :</p>
             <br>
-            <a href="https://github.com/shinshan73/portfolio-shinshan-bbt"> bbt</a>
+            <a href="https://github.com/shinshan73/portfolio-shinshan-bbt" target="_blank"> My portfolio Bubble Tea</a>
+            <br>
+            <br>
+            <a href="https://github.com/shinshan73/Fil-rouge" target="_blank"> Project Fil rouge </a>
+        <br>
+        <br>
         </div>
-        <br>
-        <br>
-        <button class="but">Switch</button>
-    </body>
+            </body>
 </template>
 
 <style scoped>
@@ -53,10 +55,15 @@
         color: blue;
         background-color: lightcyan;
     }
+    a{
+        color: green;
+        font-size: 20px;
+    }
 </style>
 
 <script>
 export default {
     name:"Kevin",
-}
+   
+};
 </script>

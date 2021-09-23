@@ -2,12 +2,14 @@
   <div id="nav">
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> |
+    <router-link to="/yann">Yann D.</router-link>
     <router-link to="/ayoub">Ayoub</router-link> |
     <router-link to="/antonio">Antonio</router-link> |
     <router-link to="/malo">Malo</router-link>
     <router-link to="/mathilde">Mathilde</router-link> |
     <router-link to="/claire">Claire</router-link> |
     <router-link to="/toml">TomL</router-link> |
+    <router-link to="/kevin">Kevin</router-link> |
     <router-link to="/warsame">Warsamé</router-link> |
     <router-link to="/nico">Nico</router-link> |
     <router-link to="/tomb">Tom B</router-link> |

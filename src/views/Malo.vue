@@ -1,3 +1,5 @@
+@@ -0,0 +1,203 @@
+
 <template>
   <div class="container">
     <header>
@@ -30,6 +32,8 @@
     </main>
   </div>
 </template>
+
+=======
 
 <script>
 const projects = [
@@ -169,6 +173,38 @@ main {
   color: white;
 }
 
+.imgproject {
+  height: 200px;
+  width: 300px;
+}
+
+.gold {
+  color: rgb(238, 183, 66);
+  font-size: 20px;
+}
+.projects {
+  height: 220px;
+  width: 300px;
+  display: flex;
+}
+.projects img {
+  position: relative;
+  align-self: center;
+  justify-self: center;
+  border-radius: 10px;
+}
+.projects p {
+  position: absolute;
+  align-self: center;
+  width: 300px;
+  color: #ffffff00;
+}
+.projects:hover img {
+  opacity: 20%;
+}
+.projects:hover p {
+  color: white;
+}
 .imgproject {
   height: 200px;
   width: 300px;

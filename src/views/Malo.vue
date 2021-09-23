@@ -16,19 +16,15 @@
           <p class="stacks">Front/End/Test Dev</p>
           <p class="stacks">Javascript | Selenium(JAVA) | C#</p>
 
-            <p class="gold">
-            My projects (hover it):
+          <p class="gold">My projects (hover it):</p>
+          <br />
+          <div v-on:click="getRandomProject" class="projects">
+            <img class="imgproject" :src="project?.url" />
+            <p>
+              {{ project?.description }} <br />
+              Click to Shuffle
             </p>
-            <br>
-            <div  v-on:click="getRandomProject" class = "projects">
-
-            <img class="imgproject" :src="project?.url">
-             <p> {{ project?.description }} <br> Click to Shuffle</p>
-            </div>
-            
-      
-         
-
+          </div>
         </div>
       </div>
     </main>
@@ -49,7 +45,6 @@ const projects = [
     url: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.apres-vente-auto.com%2Fwp-content%2Fuploads%2F2010%2F05%2FAutodistribution_logo_620.jpg&f=1&nofb=1",
     description: "Autodistribution Web APP",
   },
-
 ];
 
 export default {
@@ -73,13 +68,12 @@ export default {
 </script>
 
 <style scoped>
-
 main {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .container {
-      border-radius: 50px;
+  border-radius: 50px;
   max-width: 1250px;
   margin: 30px auto 30px;
   padding: 0 !important;
@@ -99,8 +93,6 @@ header {
   border-top-right-radius: 50px;
 }
 
-
-
 @media (max-width: 800px) {
   header {
     height: 150px;
@@ -113,9 +105,7 @@ header {
 
 main {
   padding: 20px 20px 0px 20px;
-
 }
-
 
 .content {
   display: flex;
@@ -147,49 +137,42 @@ main {
 }
 
 .gold {
-    color: rgb(238, 183, 66);
-    font-size: 20px;
+  color: rgb(238, 183, 66);
+  font-size: 20px;
 }
 
 .projects {
-    height: 220px;
-    width: 300px;
-        display: flex;
-
-
+  height: 220px;
+  width: 300px;
+  display: flex;
 }
 
-.projects img{
-   position: relative;
-    align-self: center;
-    justify-self: center;
-    border-radius: 10px;
-   
+.projects img {
+  position: relative;
+  align-self: center;
+  justify-self: center;
+  border-radius: 10px;
 }
-.projects p{
-    position:absolute;
-    align-self: center;
-    width: 300px;
+.projects p {
+  position: absolute;
+  align-self: center;
+  width: 300px;
 
-        color: #ffffff00;
-
-
+  color: #ffffff00;
 }
 
-
-.projects:hover img{
-    opacity: 20%;
+.projects:hover img {
+  opacity: 20%;
 }
 
-.projects:hover p{
-    color: white;
+.projects:hover p {
+  color: white;
 }
 
 .imgproject {
-    height: 200px;
-    width: 300px;
+  height: 200px;
+  width: 300px;
 }
-
 
 .stats {
   margin-top: 25px;
@@ -197,7 +180,4 @@ main {
   padding-bottom: 20px;
   border-bottom: 1px solid #ededed;
 }
-
-
-
 </style>

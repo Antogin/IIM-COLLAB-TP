@@ -1,6 +1,7 @@
 describe("Scenarios for page Malo", () => {
-  // failing
-  xit("Check if first project displayed is Autodistribution", () => {
+
+  it("Check if first project displayed is Autodistribution", () => {
+
     cy.visit("http://localhost:8080/malo");
 
     cy.get('[class="projects"]').should(

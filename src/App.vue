@@ -5,6 +5,7 @@
     <router-link to="/yann">Yann D.</router-link>
     <router-link to="/ayoub">Ayoub</router-link> |
     <router-link to="/antonio">Antonio</router-link> |
+    <router-link to="/malo">Malo</router-link>
     <router-link to="/mathilde">Mathilde</router-link> |
     <router-link to="/claire">Claire</router-link> |
     <router-link to="/toml">TomL</router-link> |
